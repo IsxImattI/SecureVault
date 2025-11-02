@@ -61,3 +61,8 @@ _ReSharper*/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Configuration files with secrets
+**/appsettings.json
+**/appsettings.*.json
+!**/appsettings.Development.json.example
