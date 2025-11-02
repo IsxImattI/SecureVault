@@ -1,0 +1,13 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=SecureVaultDb;Trusted_Connection=true;TrustServerCertificate=true;MultipleActiveResultSets=true"
+  },
+  "Instructions": {
+    "Note": "Copy this file to 'appsettings.json' and update YOUR_SERVER_NAME",
+    "Examples": {
+      "SQLExpress": ".\\SQLEXPRESS",
+      "LocalDB": "(localdb)\\mssqllocaldb",
+      "FullInstance": "localhost\\SQLEXPRESS"
+    }
+  }
+}
