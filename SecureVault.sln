@@ -3,7 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureVault.UI", "SecureVault.UI\SecureVault.UI.csproj", "{CFCC9535-9DCC-4829-9707-61E534C8FBA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureVault.Core", "SecureVault.Core\SecureVault.Core.csproj", "{8278B278-2074-45BE-8684-5CAEF0A65E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureVault.Infrastructure", "SecureVault.Infrastructure\SecureVault.Infrastructure.csproj", "{3709EFC5-13BA-40A0-9835-D79696E2FFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureVault.Tests", "SecureVault.Tests\SecureVault.Tests.csproj", "{4E57031E-66CB-46B6-ABF7-4EF5D456F99E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCC9535-9DCC-4829-9707-61E534C8FBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCC9535-9DCC-4829-9707-61E534C8FBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCC9535-9DCC-4829-9707-61E534C8FBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCC9535-9DCC-4829-9707-61E534C8FBA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8278B278-2074-45BE-8684-5CAEF0A65E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8278B278-2074-45BE-8684-5CAEF0A65E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8278B278-2074-45BE-8684-5CAEF0A65E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8278B278-2074-45BE-8684-5CAEF0A65E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3709EFC5-13BA-40A0-9835-D79696E2FFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3709EFC5-13BA-40A0-9835-D79696E2FFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3709EFC5-13BA-40A0-9835-D79696E2FFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3709EFC5-13BA-40A0-9835-D79696E2FFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E57031E-66CB-46B6-ABF7-4EF5D456F99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E57031E-66CB-46B6-ABF7-4EF5D456F99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E57031E-66CB-46B6-ABF7-4EF5D456F99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E57031E-66CB-46B6-ABF7-4EF5D456F99E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
